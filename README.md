@@ -17,3 +17,4 @@ This repo lists all test applications / workloads within the carto-run org.
 | [app-maven-kpack-fails-at-image-scan](https://github.com/carto-run/app-maven-kpack-fails-at-image-scan) | java | tekton | tbs | fails at Image Scan | |
 | [app-image](https://github.com/carto-run/app-image) | java | - | pack-cli | ✅ | |
 | [app-mavenartifact](https://github.com/carto-run/app-mavenartifact) | java | tekton (noop) | tbs | ✅ | |
+| [app-mavenartifact-fails-at-source-provider](https://github.com/carto-run/app-mavenartifact/blob/main/README.md#simulating-a-broken-source-provider) | - | - | - | fails at Source Provider | |
