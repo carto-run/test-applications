@@ -4,6 +4,8 @@ This repo lists all test applications / workloads within the carto-run org.
 
 | Application | Language | Source Tester | Image Builder | Should Pass | Comments |
 | ----------- | -------- | ------------- | ------------- | ----------- | -------- |
+| [app-golang-kaniko](https://github.com/carto-run/app-golang-kaniko) | java | tekton | kaniko | ✅ | |
+| [app-golang-kpack](https://github.com/carto-run/app-golang-kpack) | golang | tekton | tbs | ✅ | |
 | [app-maven-kaniko](https://github.com/carto-run/app-maven-kaniko) | java | tekton | kaniko | ✅ | |
 | [app-maven-kaniko-fails-at-image-build](https://github.com/carto-run/app-maven-kaniko-fails-at-image-build) | java | tekton | kaniko | fails at Image Provider | kaniko build fails but invalid status is reported |
 | [app-maven-kaniko-with-subpath](https://github.com/carto-run/app-maven-kaniko-with-subpath) | java | tekton | kaniko | ✅ | incorrectly fails at the source tester stage |
